@@ -49,6 +49,8 @@ SELECT distinct co2_budget FROM game;
 
 # OSIO 2 TENTTI 2
 
-OSIO 2 TEHTTI 2 TEHTÄVÄ 1
+OSIO 2 TENTTI 2 TEHTÄVÄ 1
+
+
 
 
