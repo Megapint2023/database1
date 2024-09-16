@@ -90,7 +90,19 @@ WHERE game.screen_name = "Heini";
 ![O2 2T4](https://github.com/user-attachments/assets/410e24ff-118a-464e-979c-97c3f73c3b1c)
 
 
-OSIO 2 TENTTI 2 TEHTÄVÄ 4
+OSIO 2 TENTTI 2 TEHTÄVÄ 5
+
+SELECT airport.elevation_ft * 0.3048 AS "elevation_m" 
+FROM airport
+JOIN game ON game.location = airport.ident
+WHERE game.screen_name = "Heini";
+
+![O2 2T5](https://github.com/user-attachments/assets/049114a8-eeb7-43ee-92aa-9521013f72c9)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 6
+
+
 
 
 
