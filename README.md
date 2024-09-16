@@ -26,3 +26,7 @@ OSIO 2 TEHTÄVÄ 5
 SELECT name FROM country WHERE name LIKE 'F%';
 ![O2T5](https://github.com/user-attachments/assets/e6040b9e-4dd2-4684-bf07-ebdfbcd46d73)
 
+OSIO 2 TEHTÄVÄ 6
+
+SELECT name FROM country WHERE name LIKE '%F%';
+![O2T06](https://github.com/user-attachments/assets/3151484a-1d81-4d72-a0f1-664f8912ff91)
