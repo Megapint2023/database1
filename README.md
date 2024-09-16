@@ -20,3 +20,9 @@ OSIO 2 TEHTÄVÄ 4
 
 SELECT name, type FROM airport WHERE iso_country = "FI" ORDER BY type LIMIT 10;
 ![O2T4](https://github.com/user-attachments/assets/c3058645-d6d8-4641-b2bc-2c16ce892010)
+
+OSIO 2 TEHTÄVÄ 5 
+
+SELECT name FROM country WHERE name LIKE 'F%';
+![O2T5](https://github.com/user-attachments/assets/e6040b9e-4dd2-4684-bf07-ebdfbcd46d73)
+
