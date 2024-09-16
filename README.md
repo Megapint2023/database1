@@ -82,5 +82,15 @@ SELECT 'Antarctica' AS "country_name", airport.name AS "airport_name"
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 4
 
+SELECT airport.elevation_ft AS "elevation_ft" 
+FROM airport
+JOIN game ON game.location = airport.ident
+WHERE game.screen_name = "Heini";
+
+![O2 2T4](https://github.com/user-attachments/assets/410e24ff-118a-464e-979c-97c3f73c3b1c)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 4
+
 
 
