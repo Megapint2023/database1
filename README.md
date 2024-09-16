@@ -112,6 +112,24 @@ WHERE game.screen_name = "Ilkka";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 7
 
+SELECT country.name AS "name" 
+FROM game
+JOIN airport ON game.location = airport.ident
+JOIN country ON airport.iso_country = country.iso_country
+WHERE game.screen_name = "Ilkka";
+
+![O2 2T7](https://github.com/user-attachments/assets/d9099a56-69b7-4326-9d08-05b71419dec3)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 7
+
+
+
+
+
+
+
+
 
 
 
