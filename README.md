@@ -61,15 +61,26 @@ WHERE airport.iso_country = country.iso_country and country.name = "Iceland";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 2
 
-SELECT airport.name AS "airport name"                               #määrittää otsikon
+SELECT airport.name AS "airport name"                              
 FROM airport #valitsee pää tietokannan
-JOIN country ON airport.iso_country = country.iso_country           # country pöytä liitetöön airporttiin
-WHERE country.name = "France" AND airport.type = "large_airport";   #määritetään missä tieto filtteröidään
+JOIN country ON airport.iso_country = country.iso_country           
+WHERE country.name = "France" AND airport.type = "large_airport";  
 
 
 ![O2 2T2](https://github.com/user-attachments/assets/f76765a7-8598-4edb-a975-361806b91ac0)
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 3
+
+SELECT 'Antarctica' AS "country_name", airport.name AS "airport_name"
+    -> FROM airport 
+    -> JOIN country ON airport.iso_country = country.iso_country
+    -> WHERE country.name = 'Antarctica';
+
+![O2 2T3](https://github.com/user-attachments/assets/18da6bd4-4f8c-4770-8804-8740561cab10)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 4
+
 
 
