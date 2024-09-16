@@ -10,3 +10,8 @@ OSIO 2 TEHTÄVÄ 2
 
 SELECT name, type FROM airport WHERE iso_country = "FI" LIMIT 10;
 ![O2T2](https://github.com/user-attachments/assets/c45e6817-8797-4f4a-a5cd-7b5da8346e1d)
+
+OSIO 2 TEHTÄVÄ 3
+
+SELECT name FROM airport WHERE iso_country = "FI" ORDER BY name ASC LIMIT 10;
+![O2T3](https://github.com/user-attachments/assets/95438b6a-4923-4c2f-866f-2ff3db4a6703)
