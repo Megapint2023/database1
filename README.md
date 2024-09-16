@@ -59,4 +59,16 @@ WHERE airport.iso_country = country.iso_country and country.name = "Iceland";
 ![O2 2T1](https://github.com/user-attachments/assets/d2f2bce3-4522-4aee-93df-e23a400f24ca)
 
 
+OSIO 2 TENTTI 2 TEHTÄVÄ 2
+
+SELECT airport.name AS "airport name"
+FROM airport
+JOIN country ON airport.iso_country = country.iso_country
+WHERE country.name = "France" AND airport.type = "large_airport";
+
+![O2 2T2](https://github.com/user-attachments/assets/f76765a7-8598-4edb-a975-361806b91ac0)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 3
+
 
