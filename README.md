@@ -30,3 +30,11 @@ OSIO 2 TEHTÄVÄ 6
 
 SELECT name FROM country WHERE name LIKE '%F%';
 ![O2T06](https://github.com/user-attachments/assets/3151484a-1d81-4d72-a0f1-664f8912ff91)
+
+OSIO 2 TEHTÄVÄ 7
+
+SELECT location FROM game WHERE screen_name = "Vesa";
+![O2T7](https://github.com/user-attachments/assets/d209f938-0fe6-46d0-a8cf-494fa6f69ba4)
+
+OSIO 2 TEHTÄVÄ 8
+
