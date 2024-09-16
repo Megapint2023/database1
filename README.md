@@ -44,6 +44,7 @@ SELECT co2_consumed from game WHERE screen_name = "Ilkka";
 OSIO 2 TEHTÄVÄ 9
 
 SELECT distinct co2_budget FROM game;
+
 ![O2T9](https://github.com/user-attachments/assets/36741265-71d4-49b7-a39f-71edc46e260b)
 
 # OSIO 3
