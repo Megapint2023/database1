@@ -24,11 +24,13 @@ SELECT name, type FROM airport WHERE iso_country = "FI" ORDER BY type LIMIT 10;
 OSIO 2 TEHTÄVÄ 5 
 
 SELECT name FROM country WHERE name LIKE 'F%';
+
 ![O2T5](https://github.com/user-attachments/assets/e6040b9e-4dd2-4684-bf07-ebdfbcd46d73)
 
 OSIO 2 TEHTÄVÄ 6
 
 SELECT name FROM country WHERE name LIKE '%F%';
+
 ![O2T06](https://github.com/user-attachments/assets/3151484a-1d81-4d72-a0f1-664f8912ff91)
 
 OSIO 2 TEHTÄVÄ 7
@@ -51,6 +53,10 @@ SELECT distinct co2_budget FROM game;
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 1
 
+SELECT country.name as "country name", airport.name as "airport name" from airport, country 
+WHERE airport.iso_country = country.iso_country and country.name = "Iceland";
+
+![O2 2T1](https://github.com/user-attachments/assets/d2f2bce3-4522-4aee-93df-e23a400f24ca)
 
 
 
