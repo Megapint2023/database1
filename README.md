@@ -134,13 +134,17 @@ AND screen_name = "Heini";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 9
 
+SELECT airport.name AS "name"
+FROM game
+JOIN goal_reached ON game.id = goal_reached.game_id
+JOIN goal ON goal_reached.goal_id = goal.id
+JOIN airport ON game.location = airport.ident
+WHERE game.screen_name = 'Ilkka';
+
+![OSIO 2 2T9](https://github.com/user-attachments/assets/a52575be-ffc1-443a-be94-8a86ef6ca594)
 
 
-
-
-
-
-
+OSIO 2 TENTTI 2 TEHTÄVÄ 10
 
 
 
