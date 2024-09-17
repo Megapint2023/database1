@@ -121,8 +121,18 @@ WHERE game.screen_name = "Ilkka";
 ![O2 2T7](https://github.com/user-attachments/assets/d9099a56-69b7-4326-9d08-05b71419dec3)
 
 
-OSIO 2 TENTTI 2 TEHTÄVÄ 7
+OSIO 2 TENTTI 2 TEHTÄVÄ 8
 
+SELECT name
+FROM goal, goal_reached, game
+WHERE game.id = game_id 
+AND goal.id = goal_id 
+AND screen_name = "Heini";
+
+![O2 2T8](https://github.com/user-attachments/assets/dd6052b3-f7f7-4a6c-8680-f0e747dad944)
+
+
+OSIO 2 TENTTI 2 TEHTÄVÄ 9
 
 
 
