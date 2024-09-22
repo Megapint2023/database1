@@ -158,3 +158,21 @@ WHERE game.screen_name = "Ilkka";
 ![O2 2T10](https://github.com/user-attachments/assets/0b445ce1-5d4c-4a80-adf4-9fa074dbe180)
 
 
+OSIO 3 TENTTI 1 TEHTÄVÄ 1
+
+SELECT country.name AS "country name", 
+       airport.name AS "airport name"
+FROM airport
+JOIN country 
+ON airport.iso_country = country.iso_country
+WHERE country.name = 'Finland'
+  AND scheduled_service = "yes";
+
+
+![O3T1](https://github.com/user-attachments/assets/8706407e-b484-47a6-a71e-ea20897e624f)
+
+
+OSIO 3 TENTTI 1 TEHTÄVÄ 2
+
+
+
