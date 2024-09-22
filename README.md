@@ -174,5 +174,17 @@ WHERE country.name = 'Finland'
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 2
 
+SELECT game.screen_name AS "screen_name", 
+       airport.name AS "name"
+FROM game
+JOIN airport
+ON game.location = airport.ident;
+
+![O3T2](https://github.com/user-attachments/assets/9464f09c-2e3c-474c-bf9c-acb15f423ad9)
+
+
+OSIO 3 TENTTI 1 TEHTÄVÄ 3
+
+
 
 
