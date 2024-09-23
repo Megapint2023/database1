@@ -524,7 +524,12 @@ OSIO 5 TEHTÄVÄ 8
 
 OSIO 5 TEHTÄVÄ 9
 
+![O5T9](https://github.com/user-attachments/assets/85508ab6-98c7-42e6-92d9-a636ef815a47)
 
+
+OSIO 5 TEHTÄVÄ 10
+
+![O5T10](https://github.com/user-attachments/assets/24fe44a3-1570-42b7-8e1e-0713d7e16606)
 
 
 
