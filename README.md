@@ -71,6 +71,8 @@ SELECT distinct co2_budget FROM game;
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 1
 
+![Screenshot 2024-09-24 at 0 22 23](https://github.com/user-attachments/assets/80bc360e-6ddb-4c08-9d73-da607fefe8f5)
+
 SELECT country.name as "country name", airport.name as "airport name" from airport, country 
 WHERE airport.iso_country = country.iso_country and country.name = "Iceland";
 
@@ -78,6 +80,8 @@ WHERE airport.iso_country = country.iso_country and country.name = "Iceland";
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 2
+
+![Screenshot 2024-09-24 at 0 22 36](https://github.com/user-attachments/assets/81cbc9ae-9ae3-49fa-8126-a4bec55e646c)
 
 SELECT airport.name AS "airport name"                              
 FROM airport #valitsee pää tietokannan
@@ -90,6 +94,8 @@ WHERE country.name = "France" AND airport.type = "large_airport";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 3
 
+![Screenshot 2024-09-24 at 0 22 47](https://github.com/user-attachments/assets/a9c2b632-3e7d-4a38-8ed4-d0ea31541aa3)
+
 SELECT 'Antarctica' AS "country_name", airport.name AS "airport_name"
     -> FROM airport 
     -> JOIN country ON airport.iso_country = country.iso_country
@@ -99,6 +105,8 @@ SELECT 'Antarctica' AS "country_name", airport.name AS "airport_name"
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 4
+
+![Screenshot 2024-09-24 at 0 22 55](https://github.com/user-attachments/assets/f672504f-bc8b-43d0-9e12-96efb834f356)
 
 SELECT airport.elevation_ft AS "elevation_ft" 
 FROM airport
@@ -110,6 +118,8 @@ WHERE game.screen_name = "Heini";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 5
 
+![Screenshot 2024-09-24 at 0 23 42](https://github.com/user-attachments/assets/681a3a48-ac5c-4278-881c-8035f01fd5a6)
+
 SELECT airport.elevation_ft * 0.3048 AS "elevation_m" 
 FROM airport
 JOIN game ON game.location = airport.ident
@@ -120,6 +130,8 @@ WHERE game.screen_name = "Heini";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 6
 
+![Screenshot 2024-09-24 at 0 23 48](https://github.com/user-attachments/assets/37a9a79d-5cda-4e2b-9659-eb32f3e4d935)
+
 SELECT airport.name AS "name" 
 FROM airport
 JOIN game ON game.location = airport.ident
@@ -129,6 +141,8 @@ WHERE game.screen_name = "Ilkka";
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 7
+
+![Screenshot 2024-09-24 at 0 23 54](https://github.com/user-attachments/assets/59bfa878-5c33-4c17-b81b-ec610ddb3224)
 
 SELECT country.name AS "name" 
 FROM game
@@ -141,6 +155,8 @@ WHERE game.screen_name = "Ilkka";
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 8
 
+![Screenshot 2024-09-24 at 0 24 01](https://github.com/user-attachments/assets/ff1e9688-d2e5-4f2e-ae0c-b06d64f9a03e)
+
 SELECT name
 FROM goal, goal_reached, game
 WHERE game.id = game_id 
@@ -151,6 +167,8 @@ AND screen_name = "Heini";
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 9
+
+![Screenshot 2024-09-24 at 0 24 45](https://github.com/user-attachments/assets/eda9c317-d6ca-4cf6-929d-fb62604384fb)
 
 SELECT airport.name AS "name"
 FROM game
@@ -163,6 +181,8 @@ WHERE game.screen_name = 'Ilkka';
 
 
 OSIO 2 TENTTI 2 TEHTÄVÄ 10
+
+![Screenshot 2024-09-24 at 0 25 33](https://github.com/user-attachments/assets/e3a14cff-6203-4a09-be5c-352b927b2e80)
 
 SELECT country.name AS "name"
 FROM game
