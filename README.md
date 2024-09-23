@@ -433,6 +433,43 @@ OSIO 4 TENTTI 2
 
 OSIO 4 TENTTI 2 TEHTÄVÄ 1
 
+![Screenshot 2024-09-23 at 23 14 13](https://github.com/user-attachments/assets/bea4747e-6fdb-45b6-bff0-7fd9805e5707)
 
+UPDATE game
+SET location = (
+    SELECT ident
+    FROM airport
+    WHERE name = 'Nottingham Airport'
+), 
+co2_consumed = co2_consumed + 500
+WHERE screen_name = 'Vesa';
+
+
+![O4T2T1](https://github.com/user-attachments/assets/4272fcb0-863e-43f9-bdbe-9b7222c03c2d)
+
+
+OSIO 4 TENTTI 2 TEHTÄVÄ 2
+
+![Screenshot 2024-09-23 at 23 24 47](https://github.com/user-attachments/assets/ca8631e8-3145-4423-af5e-52d3a84561be)
+
+
+OSIO 4 TENTTI 2 TEHTÄVÄ 3
+
+![Screenshot 2024-09-23 at 23 27 24](https://github.com/user-attachments/assets/865ecf3b-981b-4888-92a0-ac1053a51ba2)
+
+DELETE FROM goal_reached;
+
+
+![Screenshot 2024-09-23 at 23 27 16](https://github.com/user-attachments/assets/ef795594-dbbc-4f50-a313-14192e3329d2)
+
+
+OSIO 4 TENTTI 2 TEHTÄVÄ 4
+
+![Screenshot 2024-09-23 at 23 29 48](https://github.com/user-attachments/assets/51df7f57-5071-473e-ad6f-ef91d4f9630e)
+
+DELETE FROM game;
+
+
+![O4T2T4](https://github.com/user-attachments/assets/30c824ef-ed00-49a1-ad45-e146a4becc2a)
 
 
