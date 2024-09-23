@@ -212,7 +212,19 @@ WHERE airport.name LIKE '%Hels%';
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 5
 
+SELECT goal.name AS "name", 
+       game.screen_name AS "screen_name"
+FROM goal
+LEFT JOIN goal_reached 
+  ON goal.id = goal_reached.goal_id
+LEFT JOIN game 
+  ON goal_reached.game_id = game.id;
 
+  
+![O3T5](https://github.com/user-attachments/assets/2bacbfc0-1f7b-4b60-81e3-230c1059b19e)
+
+
+OSIO 3 TENTTI 2 TEHTÄVÄ 1
 
 
 
