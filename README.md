@@ -473,3 +473,32 @@ DELETE FROM game;
 ![O4T2T4](https://github.com/user-attachments/assets/30c824ef-ed00-49a1-ad45-e146a4becc2a)
 
 
+
+OSIO 5!!!!
+
+OSIO 5 TEHTÄVÄ 1 
+
+YKSILÖTYYPI TUNNISTETTAVA OMINAISUUS = PRIMARY KEY 
+
+![O5T1](https://github.com/user-attachments/assets/d63b79f8-cad3-41dd-9fd0-ed7ab8fafdd7)
+
+
+OSIO 5 TEHTÄVÄ 2
+"Yhden suhde moneen". Esim -> 
+Yhdellä maalla (country) voi olla monta (airport) lentokenttää, mutta "yksi" lentokenttä kuuluu vain yhteen maahan.
+Suhteessa "one to many" airport taulu on many/monta -> koska yhdellä maalla (country) voi olla monta "airport" lentokenttää.
+
+![O5T2](https://github.com/user-attachments/assets/3a2f3594-8320-470c-a58a-a6fca2e445b7)
+
+
+OSIO 5 TEHTÄVÄ 3
+
+
+
+
+
+
+
+
+
+
