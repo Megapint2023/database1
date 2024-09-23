@@ -484,6 +484,7 @@ YKSILÖTYYPI TUNNISTETTAVA OMINAISUUS = PRIMARY KEY
 
 
 OSIO 5 TEHTÄVÄ 2
+
 "Yhden suhde moneen". Esim -> 
 Yhdellä maalla (country) voi olla monta (airport) lentokenttää, mutta "yksi" lentokenttä kuuluu vain yhteen maahan.
 Suhteessa "one to many" airport taulu on many/monta -> koska yhdellä maalla (country) voi olla monta "airport" lentokenttää.
@@ -493,7 +494,35 @@ Suhteessa "one to many" airport taulu on many/monta -> koska yhdellä maalla (co
 
 OSIO 5 TEHTÄVÄ 3
 
+![O5T3](https://github.com/user-attachments/assets/518c6a93-161f-42d6-99a2-f408c09fe965)
 
+
+OSIO 5 TEHTÄVÄ 4
+
+![O5T4](https://github.com/user-attachments/assets/b432f908-3d64-4c8e-8f1c-07af2bf2f0a1)
+
+
+OSIO 5 TEHTÄVÄ 5
+
+![O5T5](https://github.com/user-attachments/assets/b3513de0-b02c-4102-85ff-d92ff0e8d5b1)
+
+
+OSIO 5 TEHTÄVÄ 6
+
+![O5T6](https://github.com/user-attachments/assets/27594248-a4b2-4af9-9ed5-756591e09458)
+
+
+OSIO 5 TEHTÄVÄ 7
+
+![O5T7](https://github.com/user-attachments/assets/94067c82-1efe-4867-a1a3-45aeca76c110)
+
+
+OSIO 5 TEHTÄVÄ 8
+
+![O5T8](https://github.com/user-attachments/assets/7deb034c-7bbd-4ac5-adf3-31d13c84457f)
+
+
+OSIO 5 TEHTÄVÄ 9
 
 
 
