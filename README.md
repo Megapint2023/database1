@@ -292,6 +292,7 @@ AND game.screen_name = "Heini"
 OSIO 4 
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 1
+
 ![Screenshot 2024-09-23 at 22 12 26](https://github.com/user-attachments/assets/ab58dc2a-ecdd-45c1-ad63-85ddbcca58e4)
 
 SELECT max(elevation_ft)
@@ -302,6 +303,7 @@ FROM airport;
 
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 2
+
 ![Screenshot 2024-09-23 at 22 13 00](https://github.com/user-attachments/assets/8f9d93ae-58d7-439a-b9ad-cca5f0523021)
 
 SELECT continent, count(*) 
@@ -313,6 +315,7 @@ GROUP BY continent;
 
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 3
+
 ![Screenshot 2024-09-23 at 22 13 55](https://github.com/user-attachments/assets/584b3d64-37fe-4d28-a9ed-be597c601f2a)
 
 SELECT screen_name, COUNT(*)
@@ -325,6 +328,7 @@ GROUP BY screen_name;
 
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 4
+
 ![Screenshot 2024-09-23 at 22 14 23](https://github.com/user-attachments/assets/a953d540-14e5-4392-9ce9-6c5de41cb86a)
 
 SELECT screen_name
@@ -338,6 +342,7 @@ FROM game);
 
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 5
+
 ![Screenshot 2024-09-23 at 22 10 36](https://github.com/user-attachments/assets/31ba3b9c-e838-4f82-a027-a59e3a883722)
 
 SELECT country.name, COUNT(*)
