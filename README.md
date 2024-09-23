@@ -388,7 +388,18 @@ WHERE elevation_ft = (
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 8
 
+![Screenshot 2024-09-23 at 22 53 32](https://github.com/user-attachments/assets/b4b66b0d-3f1e-4a83-8f75-41a7c08a700f)
 
+SELECT country.name
+FROM country
+JOIN airport ON airport.iso_country = country.iso_country
+WHERE airport.elevation_ft = (
+    SELECT MAX(elevation_ft)
+    FROM airport
+);
+
+
+![Screenshot 2024-09-23 at 22 57 09](https://github.com/user-attachments/assets/d8fb3ee7-c56d-4b90-b78d-1288ea08f6fb)
 
 
 
