@@ -185,6 +185,34 @@ ON game.location = airport.ident;
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 3
 
+SELECT game.screen_name, 
+       country.name AS "name"
+FROM game
+JOIN airport 
+  ON game.location = airport.ident
+JOIN country 
+  ON airport.iso_country = country.iso_country;
+
+
+![O3T3](https://github.com/user-attachments/assets/b07adcf9-f900-451e-97c1-e8e61810201e)
+
+
+OSIO 3 TENTTI 1 TEHTÄVÄ 4
+
+SELECT airport.name AS "name", 
+       game.screen_name AS "screen_name"
+FROM airport
+LEFT JOIN game 
+  ON airport.ident = game.location
+WHERE airport.name LIKE '%Hels%';
+
+
+![O3T4](https://github.com/user-attachments/assets/cbda3805-2d4e-4a12-880d-bb4c3f4f8c26)
+
+
+OSIO 3 TENTTI 1 TEHTÄVÄ 5
+
+
 
 
 
