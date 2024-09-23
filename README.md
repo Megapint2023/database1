@@ -3,25 +3,35 @@ Database basics
 
 OSIO 2 TEHTÄVÄ 1
 
+![Screenshot 2024-09-24 at 0 18 27](https://github.com/user-attachments/assets/134519fa-61a7-4bb0-8b60-62d76ccdc28e)
+
 SELECT * FROM goal;
 ![O2T1](https://github.com/user-attachments/assets/46af8304-cccd-4993-aa9a-7b14a1cc6caa)
 
 OSIO 2 TEHTÄVÄ 2
+
+![Screenshot 2024-09-24 at 0 18 40](https://github.com/user-attachments/assets/c4805d55-be50-409b-97eb-cda65db7abee)
 
 SELECT name, type FROM airport WHERE iso_country = "FI" LIMIT 10;
 ![O2T2](https://github.com/user-attachments/assets/c45e6817-8797-4f4a-a5cd-7b5da8346e1d)
 
 OSIO 2 TEHTÄVÄ 3
 
+![Screenshot 2024-09-24 at 0 18 47](https://github.com/user-attachments/assets/d17badb9-0bc7-4985-9361-9ff8aa49c686)
+
 SELECT name FROM airport WHERE iso_country = "FI" ORDER BY name ASC LIMIT 10;
 ![O2T3](https://github.com/user-attachments/assets/95438b6a-4923-4c2f-866f-2ff3db4a6703)
 
 OSIO 2 TEHTÄVÄ 4
 
+![Screenshot 2024-09-24 at 0 18 54](https://github.com/user-attachments/assets/b50dd6f8-8f38-4983-8467-84c134bfdf8c)
+
 SELECT name, type FROM airport WHERE iso_country = "FI" ORDER BY type LIMIT 10;
 ![O2T4](https://github.com/user-attachments/assets/c3058645-d6d8-4641-b2bc-2c16ce892010)
 
 OSIO 2 TEHTÄVÄ 5 
+
+![Screenshot 2024-09-24 at 0 20 04](https://github.com/user-attachments/assets/df91ddae-e3b3-42aa-a344-4f2cf8da9b83)
 
 SELECT name FROM country WHERE name LIKE 'F%';
 
@@ -29,21 +39,29 @@ SELECT name FROM country WHERE name LIKE 'F%';
 
 OSIO 2 TEHTÄVÄ 6
 
+![Screenshot 2024-09-24 at 0 20 11](https://github.com/user-attachments/assets/1e10252c-ba44-475d-84e8-71e3904b5b95)
+
 SELECT name FROM country WHERE name LIKE '%F%';
 
 ![O2T06](https://github.com/user-attachments/assets/3151484a-1d81-4d72-a0f1-664f8912ff91)
 
 OSIO 2 TEHTÄVÄ 7
 
+![Screenshot 2024-09-24 at 0 20 17](https://github.com/user-attachments/assets/ae82dfc9-a713-443c-b0db-d82107e25489)
+
 SELECT location FROM game WHERE screen_name = "Vesa";
 ![O2T7](https://github.com/user-attachments/assets/d209f938-0fe6-46d0-a8cf-494fa6f69ba4)
 
 OSIO 2 TEHTÄVÄ 8
 
+![Screenshot 2024-09-24 at 0 20 24](https://github.com/user-attachments/assets/f37305eb-78df-47e5-8c73-9840be1c10ac)
+
 SELECT co2_consumed from game WHERE screen_name = "Ilkka";
 ![O2T8](https://github.com/user-attachments/assets/3409c8ac-c458-4162-9d0c-d17debb7488d)
 
 OSIO 2 TEHTÄVÄ 9
+
+![Screenshot 2024-09-24 at 0 20 32](https://github.com/user-attachments/assets/686b2708-c1a8-4b66-a76e-94ff964fc5ef)
 
 SELECT distinct co2_budget FROM game;
 
