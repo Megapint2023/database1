@@ -226,5 +226,70 @@ LEFT JOIN game
 
 OSIO 3 TENTTI 2 TEHTÄVÄ 1
 
+SELECT name
+FROM country
+WHERE iso_country IN (
+    SELECT iso_country
+    FROM airport
+    WHERE name LIKE 'Satsuma%'
+);
+
+
+![O3T2T1](https://github.com/user-attachments/assets/acefe980-f81d-41c8-9c9e-6a46a7abf7f5)
+
+
+OSIO 3 TENTTI 2 TEHTÄVÄ 2
+
+SELECT airport.name
+FROM airport
+JOIN country 
+  ON airport.iso_country = country.iso_country
+WHERE country.name = 'Monaco';
+
+
+![O3T2T2](https://github.com/user-attachments/assets/f312c1ea-0fba-473d-8c41-359d6967f65f)
+
+
+OSIO 3 TENTTI 2 TEHTÄVÄ 3
+
+SELECT game.screen_name
+FROM game
+JOIN goal_reached 
+  ON game.id = goal_reached.game_id
+JOIN goal 
+  ON goal_reached.goal_id = goal.id
+WHERE goal.name = 'CLOUDS';
+
+
+![O3T2T3](https://github.com/user-attachments/assets/b340a61f-7f5d-4744-98f1-d84c1d4f12c7)
+
+
+OSIO 3 TENTTI 2 TEHTÄVÄ 4
+
+SELECT name 
+FROM country
+WHERE iso_country NOT IN (
+    SELECT iso_country 
+    FROM airport
+);
+
+![O3T2T4](https://github.com/user-attachments/assets/0e8bb076-49d7-4c58-876e-34150b0f6b85)
+
+
+OSIO 3 TENTTI 2 TEHTÄVÄ 5 
+
+MariaDB [flight_game]> SELECT name FROM goal WHERE id NOT IN (
+SELECT goal.id
+FROM goal, goal_reached, game
+WHERE game.id = goal_reached.game_id
+AND goal.id = goal_reached.goal_id
+AND game.screen_name = "Heini"
+);
+
+![O3T2T5](https://github.com/user-attachments/assets/990ea63b-3127-413f-b3a2-a80bc35d1d89)
+
+
+
+
 
 
