@@ -402,12 +402,21 @@ WHERE airport.elevation_ft = (
 ![Screenshot 2024-09-23 at 22 57 09](https://github.com/user-attachments/assets/d8fb3ee7-c56d-4b90-b78d-1288ea08f6fb)
 
 
+OSIO 4 TENTTI 1 TEHTÄVÄ 9
+
+![Screenshot 2024-09-23 at 22 58 44](https://github.com/user-attachments/assets/10534b58-68de-4570-b0b5-f7318764e16b)
+
+SELECT count(*)
+FROM goal_reached
+JOIN game ON goal_reached.game_id = game.id
+JOIN goal ON goal_reached.goal_id = goal.id
+WHERE game.screen_name = 'Vesa';
 
 
+![O4T1T9](https://github.com/user-attachments/assets/cc069ec1-bd2e-44dc-975e-045d9547eb71)
 
 
-
-
+OSIO 4 TENTTI 1 TEHTÄVÄ 10
 
 
 
