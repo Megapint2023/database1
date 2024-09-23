@@ -418,7 +418,20 @@ WHERE game.screen_name = 'Vesa';
 
 OSIO 4 TENTTI 1 TEHTÄVÄ 10
 
+![Screenshot 2024-09-23 at 23 10 53](https://github.com/user-attachments/assets/1d266f5a-f681-4e9f-83b5-40cae5052666)
 
+SELECT name
+FROM airport
+ORDER BY ABS(latitude_deg) DESC
+LIMIT 1;
+
+
+![O4T1T10](https://github.com/user-attachments/assets/bd26aa3e-bf9b-4be3-bcc0-113a8cd14ae8)
+
+
+OSIO 4 TENTTI 2 
+
+OSIO 4 TENTTI 2 TEHTÄVÄ 1
 
 
 
