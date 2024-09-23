@@ -356,6 +356,43 @@ LIMIT 50;
 ![O4T1T5](https://github.com/user-attachments/assets/e1879b75-2257-45c7-b476-b76e7c2d7f9e)
 
 
+OSIO 4 TENTTI 1 TEHTÄVÄ 6
+
+![Screenshot 2024-09-23 at 22 16 11](https://github.com/user-attachments/assets/ca32f8ec-59b8-44b1-b5c2-0e4a3308fedb)
+
+
+SELECT country.name
+FROM airport, country
+WHERE airport.iso_country = country.iso_country
+GROUP BY country.iso_country
+HAVING COUNT(*) >= 1000;
+
+
+![O4T1T6](https://github.com/user-attachments/assets/7fa1b1f2-ec44-4640-a52c-d87769d06083)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 7
+
+![Screenshot 2024-09-23 at 22 19 26](https://github.com/user-attachments/assets/81036f47-ad76-4083-a0b9-31d9b5fb20ea)
+
+SELECT name
+FROM airport
+WHERE elevation_ft = (
+    SELECT MAX(elevation_ft)
+    FROM airport
+);
+
+
+![O4T1T7](https://github.com/user-attachments/assets/0d706dd5-0879-4d1e-9066-2c50fd7829b8)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 8
+
+
+
+
+
+
 
 
 
