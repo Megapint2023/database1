@@ -289,6 +289,70 @@ AND game.screen_name = "Heini"
 ![O3T2T5](https://github.com/user-attachments/assets/990ea63b-3127-413f-b3a2-a80bc35d1d89)
 
 
+OSIO 4 
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 1
+
+SELECT max(elevation_ft)
+FROM airport;
+
+
+![O4T1T1](https://github.com/user-attachments/assets/023a4b07-f29d-41a8-a4a1-bd93a5f2387a)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 2
+
+SELECT continent, count(*) 
+FROM country
+GROUP BY continent;
+
+
+![O4T1T2](https://github.com/user-attachments/assets/4eb90310-ac24-43a2-9a43-5f11c200a597)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 3
+
+SELECT screen_name, COUNT(*)
+FROM game, goal_reached
+WHERE game.id = goal_reached.game_id
+GROUP BY screen_name;
+
+
+![O4T1T3](https://github.com/user-attachments/assets/e1ae965c-36d9-46f9-a185-55e25191f1ba)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 4
+
+SELECT screen_name
+FROM game
+WHERE co2_consumed = (
+SELECT MIN(co2_consumed) 
+FROM game);
+
+
+![O4T1T4](https://github.com/user-attachments/assets/5d96dd45-48f9-4958-aaea-7eed1fb01d32)
+
+
+OSIO 4 TENTTI 1 TEHTÄVÄ 5
+![Screenshot 2024-09-23 at 22 10 36](https://github.com/user-attachments/assets/31ba3b9c-e838-4f82-a027-a59e3a883722)
+
+SELECT country.name, COUNT(*)
+FROM airport, country
+WHERE airport.iso_country = country.iso_country
+GROUP BY country.iso_country
+ORDER BY COUNT(*) DESC
+LIMIT 50;
+
+
+![O4T1T5](https://github.com/user-attachments/assets/e1879b75-2257-45c7-b476-b76e7c2d7f9e)
+
+
+
+
+
+
+
+
 
 
 
