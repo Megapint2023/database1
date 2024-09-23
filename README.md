@@ -198,6 +198,8 @@ WHERE game.screen_name = "Ilkka";
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 1
 
+![Screenshot 2024-09-24 at 0 26 59](https://github.com/user-attachments/assets/243e44f4-7f0a-46c7-944d-c73910412a5f)
+
 SELECT country.name AS "country name", 
        airport.name AS "airport name"
 FROM airport
@@ -212,6 +214,8 @@ WHERE country.name = 'Finland'
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 2
 
+![Screenshot 2024-09-24 at 0 27 05](https://github.com/user-attachments/assets/9ce4fb43-2c95-443d-8027-579b3ab7a6c5)
+
 SELECT game.screen_name AS "screen_name", 
        airport.name AS "name"
 FROM game
@@ -222,6 +226,8 @@ ON game.location = airport.ident;
 
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 3
+
+![Screenshot 2024-09-24 at 0 27 12](https://github.com/user-attachments/assets/5d9e951d-b3a9-4346-9f32-7a7fbd7a8014)
 
 SELECT game.screen_name, 
        country.name AS "name"
@@ -237,6 +243,8 @@ JOIN country
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 4
 
+![Screenshot 2024-09-24 at 0 27 17](https://github.com/user-attachments/assets/7d0c5d2c-1b8b-4cb3-b2f2-94fcf83ce63b)
+
 SELECT airport.name AS "name", 
        game.screen_name AS "screen_name"
 FROM airport
@@ -249,6 +257,8 @@ WHERE airport.name LIKE '%Hels%';
 
 
 OSIO 3 TENTTI 1 TEHTÄVÄ 5
+
+![Screenshot 2024-09-24 at 0 27 22](https://github.com/user-attachments/assets/48a6e4de-8d44-41e5-ab87-45bf338e53ba)
 
 SELECT goal.name AS "name", 
        game.screen_name AS "screen_name"
