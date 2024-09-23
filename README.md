@@ -196,6 +196,8 @@ WHERE game.screen_name = "Ilkka";
 ![O2 2T10](https://github.com/user-attachments/assets/0b445ce1-5d4c-4a80-adf4-9fa074dbe180)
 
 
+OSIO 3!!!
+
 OSIO 3 TENTTI 1 TEHTÄVÄ 1
 
 ![Screenshot 2024-09-24 at 0 26 59](https://github.com/user-attachments/assets/243e44f4-7f0a-46c7-944d-c73910412a5f)
@@ -272,7 +274,11 @@ LEFT JOIN game
 ![O3T5](https://github.com/user-attachments/assets/2bacbfc0-1f7b-4b60-81e3-230c1059b19e)
 
 
+OSIO 3 TENTTI 2!!!!
+
 OSIO 3 TENTTI 2 TEHTÄVÄ 1
+
+![Screenshot 2024-09-24 at 0 29 56](https://github.com/user-attachments/assets/0fd994e1-a717-4919-8998-9627e07d0174)
 
 SELECT name
 FROM country
@@ -288,6 +294,8 @@ WHERE iso_country IN (
 
 OSIO 3 TENTTI 2 TEHTÄVÄ 2
 
+![Screenshot 2024-09-24 at 0 30 01](https://github.com/user-attachments/assets/9694b59b-9286-46ef-907c-9ae1fc116d17)
+
 SELECT airport.name
 FROM airport
 JOIN country 
@@ -299,6 +307,8 @@ WHERE country.name = 'Monaco';
 
 
 OSIO 3 TENTTI 2 TEHTÄVÄ 3
+
+![Screenshot 2024-09-24 at 0 30 06](https://github.com/user-attachments/assets/c563ec2a-81af-4564-85c6-ceb5d5867bec)
 
 SELECT game.screen_name
 FROM game
@@ -314,6 +324,8 @@ WHERE goal.name = 'CLOUDS';
 
 OSIO 3 TENTTI 2 TEHTÄVÄ 4
 
+![Screenshot 2024-09-24 at 0 30 12](https://github.com/user-attachments/assets/73b50a20-4963-425d-87a2-31c3bd12adca)
+
 SELECT name 
 FROM country
 WHERE iso_country NOT IN (
@@ -325,6 +337,8 @@ WHERE iso_country NOT IN (
 
 
 OSIO 3 TENTTI 2 TEHTÄVÄ 5 
+
+![Screenshot 2024-09-24 at 0 30 19](https://github.com/user-attachments/assets/09dc594a-7231-4e99-815b-ee9d86cf51c6)
 
 MariaDB [flight_game]> SELECT name FROM goal WHERE id NOT IN (
 SELECT goal.id
